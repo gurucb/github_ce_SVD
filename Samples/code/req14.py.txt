@@ -1,0 +1,36 @@
+REQ014: The vehicle software should support voice commands for hands-free operation". Here's a simple Python code example using the SpeechRecognition library:
+
+import speech_recognition as sr  
+  
+def listen_for_command():  
+    # Create a recognizer instance  
+    recognizer = sr.Recognizer()  
+  
+    # Use the default microphone as the audio source  
+    with sr.Microphone() as source:  
+        print("Listening for command...")  
+          
+        # Reduce background noise  
+        recognizer.adjust_for_ambient_noise(source)  
+          
+        # Listen for the first phrase and extract it into audio data  
+        audio_data = recognizer.listen(source)  
+  
+    try:  
+        # Recognize speech using Google Speech Recognition  
+        print("Recognizing command...")  
+        command = recognizer.recognize_google(audio_data)  
+        print(f"Command received: {command}")  
+          
+        # Here, you would implement functionality to handle the command  
+        # For example, if the command is "navigate home", the software would start navigation towards the user's home  
+        # If the command is "play music", the software would start playing music, and so on  
+  
+    except sr.UnknownValueError:  
+        # Google Speech Recognition could not understand audio  
+        print("Google Speech Recognition could not understand the audio")  
+    except sr.RequestError as e:  
+        # Could not request results from Google Speech Recognition service  
+        print(f"Could not request results from Google Speech Recognition service; {e}")  
+  
+listen_for_command()  

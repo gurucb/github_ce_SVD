@@ -1,0 +1,40 @@
+REQ001: The vehicle software shall support the processing and response to sensor data in real-time.
+REQ002: The vehicle hardware must support 4G/5G network connectivity.
+REQ003: The vehicle software shall support over-the-air (OTA) updates.
+REQ004: The vehicle software must provide real-time diagnostic information on all vehicle subsystems.
+REQ005: The autonomous driving software should be capable of detecting obstacles within a 200-meter range.
+REQ006: The vehicle software should encrypt all data exchanges using AES-256 encryption.
+REQ007: The vehicle hardware must be equipped with an energy-efficient processor.
+REQ008: The vehicle software should be capable of storing and managing up to 1 TB of sensor data.
+REQ009: The vehicle hardware must support simultaneous Bluetooth connectivity for at least five devices.
+REQ010: The vehicle software must comply with ISO 26262 for functional safety.
+REQ011: The vehicle software must comply with ISO/SAE 21434 for cybersecurity.
+REQ012: The vehicle software should be compatible with Android and iOS operating systems for the infotainment system.
+REQ013: The vehicle hardware must support high-definition displays for the infotainment system.
+REQ014: The vehicle software should support voice commands for hands-free operation.
+REQ015: The vehicle hardware must include an advanced GPS module for precise navigation.
+REQ016: The vehicle software should provide a user-friendly interface for all controls and settings.
+REQ017: The vehicle hardware must include sensors for monitoring tire pressure in real-time.
+REQ018: The vehicle software should provide warnings when tire pressure drops below a specified level.
+REQ019: The vehicle hardware must include a camera system for 360-degree visibility.
+REQ020: The vehicle software should process images from the camera system to provide a comprehensive view of the vehicle's surroundings.
+REQ021: The vehicle software shall support user profiles to personalize in-car settings.
+REQ022: The vehicle hardware must incorporate an electric battery with a minimum range of 300 miles.
+REQ023: The vehicle software must be capable of performing an emergency stop in the event of a critical threat.
+REQ024: The vehicle hardware shall include a LiDAR sensor for obstacle detection.
+REQ025: The vehicle software should provide real-time traffic updates.
+REQ026: The vehicle hardware must be capable of wireless charging.
+REQ027: The vehicle software should provide predictive maintenance alerts.
+REQ028: The vehicle hardware must include sensors to monitor battery health.
+REQ029: The vehicle software should provide a virtual assistant for interaction with the driver.
+REQ030: The vehicle hardware must include a high-speed data storage system for logging sensor data.
+REQ031: The vehicle software should support the customization of the infotainment system.
+REQ032: The vehicle hardware must include a climate control system that can be controlled via software.
+REQ033: The vehicle software should support over-the-air firmware updates for all electronic components.
+REQ034: The vehicle hardware must include sensors for automatic headlight control.
+REQ035: The vehicle software should provide a 'find my car' feature.
+REQ036: The vehicle hardware must support keyless entry and ignition.
+REQ037: The vehicle software should provide a feature for tracking fuel efficiency.
+REQ038: The vehicle hardware must include an automatically dimming rear-view mirror.
+REQ039: The vehicle software should provide an interface for setting cruise control speeds.
+REQ040: The vehicle hardware must include an adaptive suspension system that can be controlled via software.
